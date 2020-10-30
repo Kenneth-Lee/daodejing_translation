@@ -1,1 +1,6 @@
-这是一个基于Sphinx的工程，基于rst写了一本道德经翻译的书，书的入口在source/README.rst中。
+这是一个基于Sphinx的工程，基于rst写了一本道德经翻译的书，书的入口在
+source/README.rst中。
+
+如果不是要看源代码，可以直接看本书的epub发布版本：
+
+	https://gitee.com/Kenneth-Lee-2012/daodejing_translation/releases
