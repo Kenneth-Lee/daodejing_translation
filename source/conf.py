@@ -36,8 +36,7 @@ bname = '道德经直译'
 # ones.
 extensions = ['sphinx.ext.doctest',
     'sphinx.ext.todo',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.mathjax']
+    'sphinx.ext.intersphinx']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
