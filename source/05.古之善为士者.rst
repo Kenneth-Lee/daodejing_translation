@@ -1,7 +1,9 @@
 .. Kenneth Lee 版权所有 2017-2021
 
 :Authors: Kenneth Lee
-:Version: 1.1
+:Version: 2.0
+:Status: Release
+:Abstract: 古之善为士者等3章，基于道来做事的人的表现形式。
 
 5. 古之善为士者
 ***************

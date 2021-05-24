@@ -2,6 +2,8 @@
 
 :Authors: Kenneth Lee
 :Version: 2.0
+:Status: Release
+:Abstract: 天长地久等2章，整个《道德经》提倡战略的总结。
 
 3. 天长地久
 ************

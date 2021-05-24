@@ -2,6 +2,8 @@
 
 :Authors: Kenneth Lee
 :Version: 2.0
+:Status: Release
+:Abstract: 道可道等2章，入题，基本原理立论，提出道和名的概念。
 
 1. 道可道
 *********

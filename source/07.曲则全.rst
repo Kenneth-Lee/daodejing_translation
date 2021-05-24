@@ -4,7 +4,7 @@
 :Version: 2.0
 :Date: 2021-05-24
 :Status: Release
-:Abstract: 曲则全后3章
+:Abstract: 曲则全等3章，关于“自见”的讨论。
 
 7. 曲则全
 **************
