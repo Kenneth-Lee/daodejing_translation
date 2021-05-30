@@ -1,7 +1,7 @@
 .. Kenneth Lee 版权所有 2017-2020
 
 :Authors: Kenneth Lee
-:Version: 1.2
+:Version: 2.0
 :Date: 2021-05-29
 :Status: Release
 :Abstract: 有物混成等5章，道的性质和利用策略。
