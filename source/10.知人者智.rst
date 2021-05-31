@@ -48,7 +48,7 @@
 .. code-block:: python
 
    def my_decision(input):
-        return ! input
+        return not input
 
 这个函数其实没有自主性，因为它的输出是被外部的输入所左右的。如果你的函数是这样
 的：
