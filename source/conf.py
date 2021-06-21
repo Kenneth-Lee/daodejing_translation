@@ -21,6 +21,8 @@ import sys
 import os
 import sphinx
 
+sys.path.append(os.path.abspath("./_extensions"))
+
 major, minor, patch = sphinx.version_info[:3]
 
 bname = '道德经直译'
@@ -36,7 +38,9 @@ bname = '道德经直译'
 # ones.
 extensions = ['sphinx.ext.doctest',
     'sphinx.ext.todo',
-    'sphinx.ext.intersphinx']
+    'sphinx.ext.intersphinx',
+    'chinese_space',
+    'cnote']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
