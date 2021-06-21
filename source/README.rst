@@ -350,7 +350,7 @@ V2的前言
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 目录:
 
    01.道可道
    02.不尚贤
