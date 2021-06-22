@@ -103,6 +103,18 @@ try:
     import sphinx_rtd_theme
     html_theme = 'sphinx_rtd_theme'
     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+    html_theme_options = {
+        'logo_only': False,
+        'display_version': False,
+        'prev_next_buttons_location': 'bottom',
+        'style_external_links': False,
+        'style_nav_header_background': '',
+        'collapse_navigation': False,
+        'sticky_navigation': False,
+        'navigation_depth': 4,
+        'includehidden': True,
+        'titles_only': False
+    }
 except ImportError:
     sys.stderr.write('Warning: The Sphinx \'sphinx_rtd_theme\' HTML theme was not found. Make sure you have the theme installed to produce pretty HTML output. Falling back to the default theme.\n')
 
