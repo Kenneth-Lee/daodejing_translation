@@ -2,3 +2,4 @@ build
 *.swp
 __pycache__
 .viminfo
+*~
