@@ -1,7 +1,7 @@
-.. Kenneth Lee 版权所有 2017-2024
+.. Kenneth Lee 版权所有 2017-2025
 
 :Authors: Kenneth Lee
-:Version: 2.3
+:Version: 2.4
 
 前言
 =====
@@ -260,6 +260,7 @@
    :caption: 目录:
 
    V2的说明
+   V3的说明
    01.道可道
    02.不尚贤
    03.天长地久
