@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.7500124"
-     inkscape:cx="281.71229"
+     inkscape:cx="281.998"
      inkscape:cy="127.99909"
      inkscape:window-width="1440"
      inkscape:window-height="831"
@@ -144,25 +144,25 @@
     </g>
     <g
        id="g1673-1"
-       transform="matrix(0.74718947,0.60227382,-0.34194674,0.42422398,116.72797,-4.9187952)"
-       style="stroke-width:1.38287">
+       transform="matrix(0.89470995,0.57768783,-0.01128322,0.40690633,80.501934,-2.7151947)"
+       style="stroke-width:1.6427">
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.365884px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1L-5)"
+         style="fill:none;stroke:#000000;stroke-width:0.43463px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1L-5)"
          d="M 62.247904,77.748128 H 100.08715"
          id="path672-2" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.365884px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1L-36-2)"
+         style="fill:none;stroke:#000000;stroke-width:0.43463px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1L-36-2)"
          d="M 81.661592,96.382942 V 58.543701"
          id="path672-3-7" />
       <rect
-         style="opacity:0.53743;fill:#808000;stroke:#ff00ff;stroke-width:0.504749;stroke-miterlimit:3.9;stop-color:#000000"
+         style="opacity:0.53743;fill:#808000;stroke:#ff00ff;stroke-width:0.599587;stroke-miterlimit:3.9;stop-color:#000000"
          id="rect1595-0"
          width="6.0139389"
          height="6.3075161"
          x="86.725861"
          y="66.434769" />
       <ellipse
-         style="opacity:0.53743;fill:#808000;stroke:#ff00ff;stroke-width:0.504749;stroke-miterlimit:3.9;stop-color:#000000"
+         style="opacity:0.53743;fill:#808000;stroke:#ff00ff;stroke-width:0.599587;stroke-miterlimit:3.9;stop-color:#000000"
          id="path1665-9"
          cx="82.20507"
          cy="79.757019"
