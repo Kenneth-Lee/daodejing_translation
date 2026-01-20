@@ -10,12 +10,8 @@ rst是一种markdown格式，本身完全是文本，可以直接阅读，但在
 
 或者自行下载编译。
 
-本文使用了两个git托管服务：
-
-* [道德经直译@gitee](https://gitee.com/Kenneth-Lee-2012/daodejing_translation)
+本文的维护总线使用如下git托管服务：
 
 * [道德经直译@github](https://github.com/Kenneth-Lee-2012/daodejing_translation)
 
-其中gitee使用了一个非常粗暴的敏感词过滤系统，所以经常把一些内容标记为“敏感内容”，
-其实这里基本上都是直接翻译，没有什么敏感内容，所以，因此看不到的读者，请考虑用
-前面提到的readthedocs访问，或者直接用git把工程下载下来自行编译。
+过去曾经使用的gitee服务已经放弃。
