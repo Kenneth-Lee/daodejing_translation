@@ -700,7 +700,7 @@ ROPE之后，就是Transformer的论文标题强调的核心概念，注意力�
 
 .. note::
 
-  在实际的论文中，encode和decode使用的ScoreBoard是不一样的，decode的的
+  在实际的论文中，encode和decode使用的ScoreBoard是不一样的，decode的
   ScoreBoard会切掉矩阵中一般对角的内容，这是为了避免“未来词”的影响。在对话的时
   候，当我们说白的时候，我们是不应该算“日”、“依”和它的关系的，所以必须去掉每行
   对于未说出来的话对前面的话的影响。这一点对优化KVCache等算法的存在有非常大的

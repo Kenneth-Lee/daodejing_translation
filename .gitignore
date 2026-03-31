@@ -4,3 +4,4 @@ __pycache__
 .viminfo
 *~
 tags
+sphinx-rst-proofread-*.txt
