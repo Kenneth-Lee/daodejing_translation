@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="123.77226mm"
+   height="108.12194mm"
+   viewBox="0 0 123.77227 108.12194"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="内存分配算法2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.2374456"
+     inkscape:cx="180.614"
+     inkscape:cy="235.56591"
+     inkscape:window-width="1648"
+     inkscape:window-height="961"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7-3" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-39.09991,4.2733725)">
+    <g
+       id="g1673"
+       transform="translate(-45.356822,24.795063)" />
+    <rect
+       style="opacity:0.68152;fill:#00ffff;stroke:#000000;stroke-width:0.765;stroke-miterlimit:3.9;stroke-dasharray:none"
+       id="rect1-5"
+       width="61.214989"
+       height="26.107574"
+       x="84.213509"
+       y="54.995541"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="118.95659"
+       y="63.844921"
+       id="text1-1"><tspan
+         sodipodi:role="line"
+         id="tspan1-0"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="118.95659"
+         y="63.844921">下一个分配的空间</tspan></text>
+    <rect
+       style="opacity:0.68152;fill:#a0892c;stroke:#000000;stroke-width:0.764997;stroke-miterlimit:3.9;stroke-dasharray:none"
+       id="rect1-5-2"
+       width="31.494825"
+       height="17.982637"
+       x="62.575844"
+       y="25.22459"
+       ry="0" />
+    <rect
+       style="opacity:0.68152;fill:#786721;stroke:#000000;stroke-width:0.764997;stroke-miterlimit:3.9;stroke-dasharray:none"
+       id="rect1-5-2-7"
+       width="31.494825"
+       height="15.844496"
+       x="62.242283"
+       y="9.1524687"
+       ry="0" />
+    <rect
+       style="opacity:0.68152;fill:#c8ab37;stroke:#000000;stroke-width:0.764997;stroke-miterlimit:3.9;stroke-dasharray:none"
+       id="rect1-5-2-7-2"
+       width="31.494825"
+       height="7.5057454"
+       x="61.994534"
+       y="1.0081717"
+       ry="0" />
+    <rect
+       style="opacity:0.68152;fill:#786721;stroke:#000000;stroke-width:0.764997;stroke-miterlimit:3.9;stroke-dasharray:none"
+       id="rect1-5-2-7-3"
+       width="31.494825"
+       height="11.140585"
+       x="62.871128"
+       y="43.59734"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="69.283051"
+       y="32.469933"
+       id="text2029-6-9"><tspan
+         sodipodi:role="line"
+         id="tspan2027-2-7"
+         style="stroke-width:0.264583"
+         x="69.283051"
+         y="32.469933">剩余的内存</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="62.558964"
+       y="5.642622"
+       id="text2029-6-9-7"><tspan
+         sodipodi:role="line"
+         id="tspan2027-2-7-0"
+         style="stroke-width:0.264583"
+         x="62.558964"
+         y="5.642622">剩余的内存(预留）</tspan></text>
+    <rect
+       style="opacity:0.68152;fill:#a0892c;stroke:#000000;stroke-width:0.764997;stroke-miterlimit:3.9;stroke-dasharray:none"
+       id="rect1-5-2-2"
+       width="31.494825"
+       height="40.860748"
+       x="62.871128"
+       y="55.033943"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="69.578339"
+       y="62.279282"
+       id="text2029-6-9-9"><tspan
+         sodipodi:role="line"
+         id="tspan2027-2-7-1"
+         style="stroke-width:0.264583"
+         x="69.578339"
+         y="62.279282">剩余的内存</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="63.249073"
+       y="16.409294"
+       id="text2029-6-9-3"><tspan
+         sodipodi:role="line"
+         id="tspan2027-2-7-6"
+         style="stroke-width:0.264583"
+         x="63.249073"
+         y="16.409294">之前分过的空间</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="63.537834"
+       y="50.938644"
+       id="text2029-6-9-3-5"><tspan
+         sodipodi:role="line"
+         id="tspan2027-2-7-6-6"
+         style="stroke-width:0.264583"
+         x="63.537834"
+         y="50.938644">之前分过的空间</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+       d="m 61.832479,27.66872 c -23.059366,13.868785 -10.234005,23.084286 0,26.512951"
+       id="path1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle-9)"
+       d="M 62.043751,2.0677652 C 38.984391,15.93655 50.313052,20.448141 60.547052,23.876806"
+       id="path1-6"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>

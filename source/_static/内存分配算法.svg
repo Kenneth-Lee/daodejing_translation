@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="131.04195mm"
+   height="114.53636mm"
+   viewBox="0 0 131.04195 114.53636"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="内存分配算法.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.2374456"
+     inkscape:cx="145.05688"
+     inkscape:cy="222.63605"
+     inkscape:window-width="1648"
+     inkscape:window-height="961"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-48.576004,0.76855645)">
+    <g
+       id="g1673"
+       transform="translate(-45.356822,24.795063)" />
+    <rect
+       style="opacity:0.68152;fill:#00ffff;stroke:#000000;stroke-width:0.765;stroke-miterlimit:3.9;stroke-dasharray:none"
+       id="rect1-5"
+       width="61.214989"
+       height="26.107574"
+       x="81.433922"
+       y="50.29163"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="116.177"
+       y="59.14101"
+       id="text1-1"><tspan
+         sodipodi:role="line"
+         id="tspan1-0"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="116.177"
+         y="59.14101">下一个分配的空间</tspan></text>
+    <rect
+       style="opacity:0.68152;fill:#a0892c;stroke:#000000;stroke-width:0.764999;stroke-miterlimit:3.9;stroke-dasharray:none"
+       id="rect1-5-2"
+       width="31.494825"
+       height="57.965878"
+       x="62.575844"
+       y="50.454655"
+       ry="0" />
+    <rect
+       style="opacity:0.68152;fill:#786721;stroke:#000000;stroke-width:0.764999;stroke-miterlimit:3.9;stroke-dasharray:none"
+       id="rect1-5-2-7"
+       width="31.494825"
+       height="41.50219"
+       x="62.242283"
+       y="9.1524687"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="65.220581"
+       y="59.196697"
+       id="text2029-6-9"><tspan
+         sodipodi:role="line"
+         id="tspan2027-2-7"
+         style="stroke-width:0.264583"
+         x="65.220581"
+         y="59.196697">剩余的内存</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="63.249073"
+       y="16.409294"
+       id="text2029-6-9-3"><tspan
+         sodipodi:role="line"
+         id="tspan2027-2-7-6"
+         style="stroke-width:0.264583"
+         x="63.249073"
+         y="16.409294">之前分过的空间</tspan></text>
+  </g>
+</svg>
