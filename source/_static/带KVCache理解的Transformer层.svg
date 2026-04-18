@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="156.48582mm"
+   height="126.08232mm"
+   viewBox="0 0 156.48583 126.08232"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="带KVCache理解的Transformer层.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.2374456"
+     inkscape:cx="189.90733"
+     inkscape:cy="210.11024"
+     inkscape:window-width="1648"
+     inkscape:window-height="961"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-62" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-3-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-0-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-62-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-3-0-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6-2-0" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-36.726237,5.4814728)">
+    <g
+       id="g1673"
+       transform="translate(-45.356822,24.795063)" />
+    <rect
+       style="opacity:0.68152;fill:#decd87;stroke:#000000;stroke-width:0.765;stroke-miterlimit:3.9;stroke-dasharray:none"
+       id="rect1"
+       width="29.784313"
+       height="12.851099"
+       x="77.526978"
+       y="81.528633"
+       ry="3.4773562" />
+    <rect
+       style="opacity:0.68152;fill:#a0892c;stroke:#000000;stroke-width:0.765;stroke-miterlimit:3.9;stroke-dasharray:none"
+       id="rect1-5"
+       width="29.784313"
+       height="12.851099"
+       x="122.70004"
+       y="81.722305"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="82.689857"
+       y="89.409378"
+       id="text2029"><tspan
+         sodipodi:role="line"
+         id="tspan2027"
+         style="stroke-width:0.264583"
+         x="82.689857"
+         y="89.409378">多头注意力</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="128.76581"
+       y="90.03672"
+       id="text2029-6"><tspan
+         sodipodi:role="line"
+         id="tspan2027-2"
+         style="stroke-width:0.264583"
+         x="128.76581"
+         y="90.03672">KV Cache</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="M 92.343538,105.87013 V 95.988247"
+       id="path1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-3)"
+       d="M 91.820208,81.563897 V 72.414178"
+       id="path1-7" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="129.68732"
+       y="103.29992"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="129.68732"
+         y="103.29992">最后一个Token在本层的Embending</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="131.144"
+       y="14.026231"
+       id="text1-1"><tspan
+         sodipodi:role="line"
+         id="tspan1-0"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="131.144"
+         y="14.026231">下一个Token在本层的Embedding</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="101.09664"
+       y="78.901123"
+       id="text1-5"><tspan
+         sodipodi:role="line"
+         id="tspan1-3"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="101.09664"
+         y="78.901123">残差</tspan></text>
+    <ellipse
+       style="opacity:0.68152;fill:#a0892c;stroke:#000000;stroke-width:0.665001;stroke-miterlimit:3.9;stroke-dasharray:none"
+       id="path2"
+       cx="91.999916"
+       cy="66.432755"
+       rx="3.8553298"
+       ry="3.6285458" />
+    <path
+       style="opacity:0.682;fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 87.923981,66.526854 h 7.857668"
+       id="path3" />
+    <path
+       style="opacity:0.682;fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 91.899735,62.442227 v 7.857668"
+       id="path3-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-0)"
+       d="M 91.933369,101.03207 H 69.674391 V 66.857566 H 86.64174"
+       id="path1-6"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 107.00891,87.878591 h 15.7237"
+       id="path4" />
+    <rect
+       style="opacity:0.68152;fill:#decd87;stroke:#000000;stroke-width:0.765;stroke-miterlimit:3.9;stroke-dasharray:none"
+       id="rect1-59"
+       width="29.784313"
+       height="12.851099"
+       x="77.056908"
+       y="38.287392"
+       ry="3.4773562" />
+    <rect
+       style="opacity:0.68152;fill:#a0892c;stroke:#000000;stroke-width:0.765;stroke-miterlimit:3.9;stroke-dasharray:none"
+       id="rect1-5-2"
+       width="29.784313"
+       height="12.851099"
+       x="122.22998"
+       y="38.481064"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="82.219788"
+       y="46.168137"
+       id="text2029-2"><tspan
+         sodipodi:role="line"
+         id="tspan2027-8"
+         style="stroke-width:0.264583"
+         x="82.219788"
+         y="46.168137">前馈网络</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="124.87472"
+       y="47.223106"
+       id="text2029-6-9"><tspan
+         sodipodi:role="line"
+         id="tspan2027-2-7"
+         style="stroke-width:0.264583"
+         x="124.87472"
+         y="47.223106">学习过的权重</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-9)"
+       d="m 91.873469,62.628893 v -9.88189"
+       id="path1-3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-3-0)"
+       d="M 91.350139,38.322655 V 29.172936"
+       id="path1-7-6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-3-0-5)"
+       d="M 91.669398,19.599436 V 10.449717"
+       id="path1-7-6-3" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="99.771317"
+       y="34.590809"
+       id="text1-5-9"><tspan
+         sodipodi:role="line"
+         id="tspan1-3-3"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="99.771317"
+         y="34.590809">残差</tspan></text>
+    <ellipse
+       style="opacity:0.68152;fill:#a0892c;stroke:#000000;stroke-width:0.665001;stroke-miterlimit:3.9;stroke-dasharray:none"
+       id="path2-1"
+       cx="91.529846"
+       cy="23.191513"
+       rx="3.8553298"
+       ry="3.6285458" />
+    <path
+       style="opacity:0.682;fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 87.453919,23.285612 h 7.85766"
+       id="path3-94" />
+    <path
+       style="opacity:0.682;fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 91.429669,19.200985 v 7.857668"
+       id="path3-9-7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.665;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-0-3)"
+       d="M 91.463309,57.790833 H 69.204329 V 23.616324 h 16.96735"
+       id="path1-6-8"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 106.53885,44.637349 h 15.7237"
+       id="path4-4" />
+  </g>
+</svg>
